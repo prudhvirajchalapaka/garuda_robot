@@ -10,7 +10,7 @@ A ROS2 differential drive robot built for autonomous navigation, mapping, and SL
 - [System Requirements](#system-requirements)
 - [Installation](#installation)
   - [Ubuntu 24.04 Installation](#ubuntu-2404-installation)
-  - [ROS2 Humble Installation](#ros2-humble-installation)
+  - [ROS2 jazzy Installation](#ros2-jazzy-installation)
   - [Gazebo Harmonic Installation](#gazebo-harmonic-installation)
   - [Dependencies Installation](#dependencies-installation)
   - [Project Setup](#project-setup)
