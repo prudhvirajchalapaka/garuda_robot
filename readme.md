@@ -227,12 +227,12 @@ ros2 launch garuda_gazebo spawn_robot.launch.py
 
 Control the robot using keyboard:
 ```bash
-ros2 launch garuda_control teleop_keyboard.launch.py
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ```
 
 Or use joystick control:
 ```bash
-ros2 launch garuda_control teleop_joy.launch.py
+ros2 launch garuda_control teleop.launch.py
 ```
 
 ### SLAM and Mapping
@@ -307,7 +307,7 @@ ros2 launch garuda_gazebo spawn_robot.launch.py
 
 4. **Terminal 4** - Control robot (if needed):
 ```bash
-ros2 launch garuda_control teleop_keyboard.launch.py
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ```
 
 ## Troubleshooting
@@ -354,6 +354,9 @@ This project is licensed under the Apache License - see the [LICENSE](LICENSE) f
 **Happy Robotics! 🤖**
 
 For questions or support, please open an issue on GitHub. or 
-contact:
+## contact:
+
+---
 Prudhvi Raj
+---
 prudhvirajchalapaka@gmail.com
